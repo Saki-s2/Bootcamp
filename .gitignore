@@ -1,0 +1,18 @@
+# Magento — composer.json e composer.lock ficam versionados, o resto não
+magento-loja/temp/vendor/
+magento-loja/temp/generated/
+magento-loja/temp/var/
+magento-loja/temp/pub/static/
+magento-loja/temp/pub/media/
+magento-loja/temp/app/etc/env.php
+
+# Artefatos de execução do Cypress
+meuprojeto/ui.tests/test-module/cypress/results/*
+!meuprojeto/ui.tests/test-module/cypress/results/.gitkeep
+
+# Ambiente e IDE
+.env
+.env.local
+.vscode/
+.DS_Store
+Thumbs.db

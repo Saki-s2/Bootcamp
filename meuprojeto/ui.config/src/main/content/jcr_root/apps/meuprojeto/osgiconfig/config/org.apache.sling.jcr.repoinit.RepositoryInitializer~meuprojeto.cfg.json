@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/meuprojeto",
+        "create path (nt:unstructured) /content/dam/meuprojeto/jcr:content",
+        "set properties on /content/dam/meuprojeto/jcr:content\n  set cq:conf{String} to /conf/meuprojeto\n  set jcr:title{String} to \"Meu Projeto Magento\"\nend"
+    ]
+}

@@ -1,0 +1,7 @@
+services:
+  app:
+    image: markoshust/magento-php:8.3-fpm-4
+    ports:
+      - "8081:80"
+    volumes:
+      - .:/var/www/html
